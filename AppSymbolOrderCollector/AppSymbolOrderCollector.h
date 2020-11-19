@@ -14,5 +14,5 @@ FOUNDATION_EXPORT double AppSymbolOrderCollectorVersionNumber;
 //! Project version string for AppSymbolOrderCollector.
 FOUNDATION_EXPORT const unsigned char AppSymbolOrderCollectorVersionString[];
 
-extern void stopSymbolCollect(void(^completion)(NSString *orderFilePath));
+extern void exportOrderFile(void(^completion)(NSString *orderFilePath));
 
