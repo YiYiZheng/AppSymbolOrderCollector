@@ -35,6 +35,6 @@ Pod::Spec.new do |s|
     'OTHER_SWIFT_FLAGS' => '-sanitize=undefined -sanitize-coverage=func'
   }
 
-  s.source_files = 'AppSymbolOrderCollector/Classes/**/*'
+  s.source_files = 'AppSymbolOrderCollector/Classes/*'
 
 end
