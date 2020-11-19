@@ -34,7 +34,4 @@ Pod::Spec.new do |s|
     'OTHER_CFLAGS' => '-fsanitize-coverage=func,trace-pc-guard',
     'OTHER_SWIFT_FLAGS' => '-sanitize=undefined -sanitize-coverage=func'
   }
-
-  s.source_files = 'AppSymbolOrderCollector/Classes/*'
-
 end
