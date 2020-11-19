@@ -10,25 +10,14 @@ Pod::Spec.new do |s|
   s.name             = 'AppSymbolOrderCollector'
   s.version          = '0.1.1'
   s.summary          = 'Collect Symbol Order.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-  Just use to collect symbol order.
-                       DESC
-
   s.homepage         = 'https://github.com/YiYiZheng/AppSymbolOrderCollector'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '郑一一' => 'qzzyy2014@163.com' }
   s.source           = { :git => 'https://github.com/YiYiZheng/AppSymbolOrderCollector.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
+  s.ios.source_files = 'AppSymbolOrderCollector/*.{h,m}'
+  s.ios.preserve_path = 'AppSymbolOrderCollector/AppSymbolOrderCollectorHelper.rb'
   
   s.ios.user_target_xcconfig = {
     'OTHER_CFLAGS' => '-fsanitize-coverage=func,trace-pc-guard',
