@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/YiYiZheng/AppSymbolOrderCollector.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
-  s.ios.source_files = 'AppSymbolOrderCollector/AppSymbolOrderCollector.{h,m}'
+  s.ios.source_files = 'AppSymbolOrderCollector/*.{h,m}'
   s.ios.preserve_path = 'AppSymbolOrderCollector/AppSymbolOrderCollectorHelper.rb'
   
   s.ios.user_target_xcconfig = {
