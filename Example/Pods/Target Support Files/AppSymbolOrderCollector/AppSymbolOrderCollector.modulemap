@@ -1,0 +1,6 @@
+framework module AppSymbolOrderCollector {
+  umbrella header "AppSymbolOrderCollector-umbrella.h"
+
+  export *
+  module * { export * }
+}

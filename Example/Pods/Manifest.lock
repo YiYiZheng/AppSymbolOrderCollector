@@ -1,0 +1,16 @@
+PODS:
+  - AppSymbolOrderCollector (0.1.1)
+
+DEPENDENCIES:
+  - AppSymbolOrderCollector (from `../`)
+
+EXTERNAL SOURCES:
+  AppSymbolOrderCollector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AppSymbolOrderCollector: 8ab30023be496fa2a81e94f8cd01596ad9e639a7
+
+PODFILE CHECKSUM: a8abb1cd24a6f35704c7e050c34aa7dc1235c594
+
+COCOAPODS: 1.10.0

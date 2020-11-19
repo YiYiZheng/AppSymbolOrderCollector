@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AppSymbolOrderCollector_Example' do
+  pod 'AppSymbolOrderCollector', :path => '../'
+
+  target 'AppSymbolOrderCollector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
